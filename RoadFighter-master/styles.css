@@ -1,0 +1,47 @@
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	background-color:#CCC;
+    color: #FFF;
+    text-shadow: 2px, 2px, 2px, black;
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+.my-float{
+  margin-top:22px;
+}
+.popout {
+  transition: transform 0.5s; /* The duration of the animation */
+  }
+  
+.popout:hover {
+  transform: scale(1.15); /* The scale factor to enlarge the image */
+  }
+.pisah {
+  width:1000px;
+  margin:auto;
+  text-align: center;
+  }
+.swipe {
+  transition: transform 0.5s; /* The duration of the animation */
+  }
+  
+.swipe:hover {
+  transform: translate(30px, 0px); /* The scale factor to enlarge the image */
+  }
+body.transparent {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.1;
+}
